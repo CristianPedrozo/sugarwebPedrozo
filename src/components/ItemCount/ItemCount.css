@@ -1,0 +1,30 @@
+.itemCountButtonRemove:hover,.itemCountButtonAdd:hover{
+    background-color: rgba(255, 202, 230, 0.507);
+    border-radius: 7px;
+}
+.itemCountButtonRemove,.itemCountButtonAdd{
+    background: transparent;
+    border:none
+}
+.itemCountButtonAddToBag{
+    padding-top: 10px;
+    width: 100%;
+}
+.itemCountNumber{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+.itemCountNumber:hover{
+    color: black;
+}
+.disabled{
+  pointer-events: none;
+  /* for "disabled" effect */
+  opacity: 0.5;
+  background: #CCC;
+}
+.itemCounter{
+    width: fit-content;
+}

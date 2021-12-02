@@ -1,11 +1,10 @@
-import Itemcount from '../ItemCount/ItemCount'
+import Item from '../item/item'
 
 const ItemListContainer = ({input})=>{
     return(
-        <div> 
-        {input}
-        <Itemcount stock={10} initial={0} title ={"Item List"} desc ={"Soy un item list"}/>
-    </div>
+        <div > 
+             {props.map(p => <Item key={p.id} title= {p.title} description={p.description} price={p.price} imgUrl={p.imgUrl} stock={p.Stock} />)}
+        </div>
         
     )
 } 
